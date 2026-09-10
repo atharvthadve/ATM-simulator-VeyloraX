@@ -9,6 +9,7 @@ A simple Java-based ATM Simulator project.
 * Withdraw money
 * View bank statements
 * Reset PIN
+* 3 Incorrect Pin Attempt
 * Exit ATM
 
 ## Technologies Used
