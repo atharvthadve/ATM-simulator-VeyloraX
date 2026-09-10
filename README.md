@@ -1,6 +1,7 @@
 # ATM Simulator
 
-A simple Java-based ATM Simulator project.
+A security-first Java ATM Simulator built with an industry-oriented approach, focusing on secure user authentication, transaction handling, PIN protection, and reliable banking operations through clean and structured OOP design.
+
 
 ## Features
 
