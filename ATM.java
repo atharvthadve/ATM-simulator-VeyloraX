@@ -68,6 +68,14 @@ public class ATM {
             } else {
                 // Galat PIN hone par dobara PIN maangta hai
                 System.out.println("Incorrect Pin, try again!");
+
+                //incorrect pin Limit
+                if (user.pinLimit()) {
+                    System.out.println("You are blocked, after 3 incorrect attempts.");
+                    System.out.println("Contact your Bank, for further assistance");
+                    scanner.close();
+                    return;
+                }
             }
         }
     }

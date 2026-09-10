@@ -27,6 +27,18 @@ public class Credentials {
         return false;
     }
 
+    //Block user when enter 3 incorrect pins
+
+    private  int i=0;
+    public boolean pinLimit(){
+        i++;
+        if(i>=3){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
     // Current balance return karta hai
     public double getBalence() {
         return balence;
